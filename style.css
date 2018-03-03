@@ -1,0 +1,64 @@
+*{padding:0;
+margin:0;
+}
+body {text-align:center;
+background-color:#FFF;
+}
+#heading {margin-top:30px;}
+#form_wrapper {width:400px;
+font: "Times New Roman", Times, serif;
+height:470px;
+margin:30px auto auto 470px;
+background-color:#99F;
+text-align:center;
+border-radius:10px;
+border-right:2px groove #333;
+box-shadow:4px 4px 2px #666666;}
+
+#formone{padding-top:10px; }
+
+#screen {width:375px;
+height:40px;
+font-size:18px;
+color:black;
+margin:4px 4px 0px 4px;
+/*border:2px inset black;*/
+border-top:2px inset #000;
+border-bottom:0px inset #FFF;
+border-right:2px inset #000;
+border-left:#000 2px inset;
+background-color:#CCC;}
+
+#screen2 {width:375px;
+text-align:right;
+height:40px;
+font-size:18px;
+color:black;
+margin:0px 4px 10px 8px;
+/*border:2px inset black;*/
+border-top:0px;
+border-bottom:2px inset #000;
+border-right:2px inset #000;
+border-left:#000 2px inset;
+background-color:#CCC;}
+
+.button {width:50px; 
+height:50px;
+margin:3px;
+border-radius:20%; 
+background-color:#069;
+font-weight:bold; 
+font-size:16px;color:#FFF;
+}
+
+.button:focus{outline:none}
+
+.number {font-size:16px; border-radius:80%; background-color:#003; color:#CCC;
+font-weight:bold;}
+
+.opps {font-size:18px; border-radius:20%; color:#FFF;font-weight:bold;}
+
+.three {font-weight:bold; border-radius:20%; color:#000;
+background-color:#FBB9A8;font-size:16px;
+}
+.three:hover{background-color:#F66;}

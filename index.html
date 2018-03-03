@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Untitled Document</title>
+<script src="js.js"></script>
+<link href="style.css" type="text/css" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+<div id="big_wrapper">
+<div id="form_wrapper">
+<form id="formone" name="form">
+<input id="screen" type="text" name="screen" value=" " disabled contenteditable="false" /><br />
+<input id="screen2" type="text" name="screen2" value=" " disabled contenteditable="false" />
+<br>
+<input class="button" type="button" value="tan&minus;&sup1" onClick="form.screen.value+='tan−¹('">
+
+<input class="button" type="button" value="cos&minus;&sup1;" onClick="form.screen.value+='cos−¹('">
+<input class="button" type="button" value="sin&minus;&sup1" onClick="form.screen.value+='sin−¹('">
+<input class="button" type="button" value="sin" onClick="form.screen.value+='sin('">
+<input class="button" type="button" value="tan" onClick="form.screen.value+='tan('">
+
+<input class="button" type="button" value="cos" onClick="form.screen.value+='cos('">
+
+<br>
+<input class="button" type="button" value="E" onClick="form.screen.value+=2.718">
+<input class="button" type="button" value="&#960;" onClick="form.screen.value+='π'">
+<input class="button" type="button" value="x^y" onClick="form.screen.value+='^'">
+<input class="button" type="button" value="(" onClick="openpara(this.value)">
+<input class="button" type="button" value=")" onClick="closepara(this.value)">
+<input class="button" type="button" value="n!" onClick="form.screen.value+='!'">
+
+
+<br>
+
+<input class="button number" type="button" value="1" onClick="form.screen.value+=1">
+<input class="button number" type="button" value="2" onClick="form.screen.value+=2">
+<input class="button number" type="button" value="3" onClick="form.screen.value+=3">
+<input class="button three" type="button" value="C" onClick="Resetfunction(this.form)">
+<input class="button three" type="button" value="DEL" onClick="backspace(this.form)">
+<input class="button three" type="button" value="=" onClick="evaluation(this.form)">
+
+<br>
+
+<input class="button number" type="button" value="4" onClick="form.screen.value+=4">
+<input class="button number" type="button" value="5" onClick="form.screen.value+=5">
+<input class="button number" type="button" value="6" onClick="form.screen.value+=6">
+
+<input class="button opps" type="button" value="+" onClick="form.screen.value+='+'">
+<input class="button opps" type="button" value="-" onClick="form.screen.value+='-'">
+<input class="button opps" type="button" value="%" onClick="form.screen.value+='%'">
+
+<br>
+<input class="button number" type="button" value="7" onClick="form.screen.value+=7">
+<input class="button number" type="button" value="8" onClick="form.screen.value+=8">
+<input class="button number" type="button" value="9" onClick="form.screen.value+=9">
+<input class="button opps" type="button" value="*" onClick="form.screen.value+='*'">
+<input class="button opps" type="button" value="/" onClick="form.screen.value+='/'">
+
+<input class="button" type="button" value="log" onClick="form.screen.value+='log('">
+<br>
+<input class="button opps" type="button" value="." onClick="form.screen.value+='.'">
+<input class="button number" type="button" value="0" onClick="form.screen.value+=0">
+<input class="button opps" type="button" value="," onClick="form.screen.value+=','">
+
+<input class="button" type="button" value="&radic;(" onClick="form.screen.value+='√('">
+<input class="button" type="button" value="ANS" onClick="form.screen.value+='ANS'">
+<input class="button" type="button" value="E&#8319;" onClick="form.screen.value+='Eⁿ('">
+
+</form>
+</div>
+<h1 id="heading">KADIRI'S SCIENTIFIC CALCULATOR</h1>
+<h2>140805022</h2>
+</div>
+</body>
+</html>
